@@ -43,15 +43,26 @@ public class Main {
 
         Rectangle rect1 = new Rectangle(7.0, 9.0);
         Rectangle rect2 = new Rectangle(10.0, 24.2);
-        Rectangle rect3 = new Rectangle(4.2, 5.2);
+        Rectangle rect3 = new Rectangle(4.2, 5.5);
         Rectangle rect4 = new Rectangle(1.2, 3.2);
         Rectangle rect5 = new Rectangle(23.5, 2.5);
+        Rectangle rect6 = new Rectangle(33.5, 2.7);
+        Rectangle rect7 = new Rectangle(3.5, 3.5);
+        Rectangle rect8 = new Rectangle(6.5, 6.5);
+        Rectangle rect9 = new Rectangle(2.5, 1.5);
+        Rectangle rect10 = new Rectangle(4.5, 0.5);
+
 
         rectanglesList.add(rect1);
         rectanglesList.add(rect2);
         rectanglesList.add(rect3);
         rectanglesList.add(rect4);
         rectanglesList.add(rect5);
+        rectanglesList.add(rect6);
+        rectanglesList.add(rect7);
+        rectanglesList.add(rect8);
+        rectanglesList.add(rect9);
+        rectanglesList.add(rect10);
 
         return rectanglesList;
     }
