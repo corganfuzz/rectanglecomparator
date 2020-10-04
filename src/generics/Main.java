@@ -8,7 +8,7 @@ public class Main {
 
         double length, width;
 
-        public Rectangle(double length, double width) {
+        Rectangle(double length, double width) {
             this.length = length;
             this.width = width;
         }
@@ -16,11 +16,9 @@ public class Main {
         double calcArea() {
             return length * width;
         }
-
         double calcPerimeter() {
             return 2 * (length + width);
         }
-
         public String toString() {
             return Double.toString(this.calcArea());
         }
@@ -32,7 +30,6 @@ public class Main {
         public int compare(Rectangle r1, Rectangle r2) {
             double area1 = r1.calcArea();
             double area2 = r2.calcArea();
-
             return Double.compare(area1, area2);
         }
     }
@@ -51,7 +48,6 @@ public class Main {
         Rectangle rect8 = new Rectangle(6.5, 6.5);
         Rectangle rect9 = new Rectangle(2.5, 1.5);
         Rectangle rect10 = new Rectangle(4.5, 0.5);
-
 
         rectanglesList.add(rect1);
         rectanglesList.add(rect2);
