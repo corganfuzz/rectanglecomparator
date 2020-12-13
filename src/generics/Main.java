@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
 
-    static class Rectangle {
+   class Rectangle {
 
         double length, width;
 
@@ -24,7 +24,7 @@ public class Main {
         }
     }
 
-    static class RectangleAreaComparator implements Comparator<Rectangle> {
+    class RectangleAreaComparator implements Comparator<Rectangle> {
 
         @Override
         public int compare(Rectangle r1, Rectangle r2) {
